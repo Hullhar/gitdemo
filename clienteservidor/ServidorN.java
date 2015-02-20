@@ -9,7 +9,7 @@ import java.io.*;
 public class ServidorN {
 	public static void main(String[] args) {
         if ( args.length != 1 ){
-            System.out.println("Uso: java Servidor #numeroDePeticionesQueQueremosAceptar");
+            System.out.println("Uso: java Servidor numeroDePeticionesQueQueremosAceptar");
         } else {
             int nPeticiones = 1; // Por defecto 0 peticiones
             String lastConection =""; //String para almacenar la informacion de la ultima conexion
