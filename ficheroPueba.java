@@ -1,1 +1,2 @@
-ESte fichero hay que terminarlo
+class ficheroPrueba {
+}
