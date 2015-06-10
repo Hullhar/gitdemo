@@ -19,7 +19,7 @@ public class ServidorN {
                 nPeticiones = Integer.parseInt(args[0]);
                 if (nPeticiones > 0 ){
                     /*Apertura del socket del servidor*/
-                    ServerSocket socketServidor = new ServerSocket(30004);
+                    ServerSocket socketServidor = new ServerSocket(1989);
                     /*Aceptamos 3 conexiones*/
                     for (int peticion = 1; peticion <= nPeticiones; peticion++){
                         /*Se bloquea el servidor a al espera de la peticion
